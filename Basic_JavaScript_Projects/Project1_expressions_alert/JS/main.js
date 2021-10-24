@@ -26,6 +26,8 @@ window.alert("Hello, World!"); //This will pop up an alert window//
     
     // I assign two variables "str1" and "str2" and concatenate them to form the third variable "res" which when ran spells out "Sunday is for football"//
     
-  
 
+    function myFunction() {
+        document.getElementById("demo").innerHTML = "Smile your on camera";
+    }
 
