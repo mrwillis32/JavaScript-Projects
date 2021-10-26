@@ -1,10 +1,11 @@
 function my_Dictionary()   {
-    var Animal = {
-        Species:"Dog",
+    var Cars = {
+        Model:"Altima",
         Color:"Black",
-        Breed:"Labrador",
-        Age:5,
-        Sound:"Bark!"
+        Make:"Nissan",
+        Doors:4,
+        Fuel:"Gas"
     };
-    document.getElementById("Dictionary").innerHTML = Animal.Sound;
+    delete Vehicle.Fuel;
+    document.getElementById("Dictionary").innerHTML = Vehicle.Fuel;
 }
