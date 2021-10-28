@@ -49,8 +49,12 @@ function string_Method()    {
     var p = 182;
     document.getElementById("Numbers_to_string").innerHTML = p.toString();
 }
+            // "182" is returned
 
-function precision_Method() {
-    var n = 12938.3012987376112;
-    document.getElementById("Precision").innerHTML = n.toPrecision(10);
+// Precision Method
+            function precision_Method() {
+    var n = 12938.3012987376112;    // this number will be rounded to the specified digit place
+    document.getElementById("Precision").innerHTML = n.toPrecision(5);  // In this case I choose 5 digits. the number printed will be "12938"
 }
+
+
