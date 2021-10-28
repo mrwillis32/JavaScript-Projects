@@ -7,8 +7,9 @@ document.write(Bigger = (5>1) ? "Left number is bigger":"Right number is bigger"
 // More elaborate ternary operator
 function Ride_Function()    {
     var Height, Can_ride;
-    Can_ride + (Height < 52) ? "You are too short" : "You are tall enough";
-    document.getElementById("Ride").innerHTML = Can_ride + "to ride.";
+    Height = document.getElementById("Height").value;
+    Can_ride = (Height < 52) ? "You are too short" : "You are tall enough";
+    document.getElementById("Ride").innerHTML = Can_ride + " to ride.";
 }
 
 function Vehicle(Make, Model, Year, Color)  {
