@@ -57,4 +57,12 @@ function string_Method()    {
     document.getElementById("Precision").innerHTML = n.toPrecision(5);  // In this case I choose 5 digits. the number printed will be "12938"
 }
 
+// program to display numbers from 1 to 5
+// initialize the variable
+let i = 1, n = 5;
 
+// while loop from i = 1 to 5
+while (i <= n) {
+    console.log(i);
+    i += 1;
+}
