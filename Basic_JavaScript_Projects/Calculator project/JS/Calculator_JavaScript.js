@@ -58,11 +58,11 @@ function Handle_Operator(Next_Operator) {
         //operator is executed
         let results = Perform_Calculation[operator] (Value_Now, Value_of_Input);
         //here we add a fixed amout of numbers after the decimal
-        result = Number(result).toFixed(9)
+        results = Number(results).toFixed(9)
         //this will remove any trailing 0's
-        result = (result * 1).toString()
-        Calculator.Display_Value = parseFloat(result);
-        Calculator.First_Operand = parseFloat(result);
+        results = (results * 1).toString()
+        Calculator.Display_Value = parseFloat(results);
+        Calculator.First_Operand = parseFloat(results);
 }
 Calculator.Wait_Second_Operand = true;
 Calculator.operator = Next_Operator;
